@@ -1,0 +1,19 @@
+General:
+SYSTEM =  MgB2   #system title
+NCORE  =  4         #core/NPAR, eg.=4 speed up for para. calculation
+PREC   =  Normal    #Normal | Accurate | Single    default: Normal  
+ENCUT  =  300       #Cut-off energy for plane wave basis set in eV.  
+EDIFF  =  1E-6      #global break condition for the electronic SC-loop,
+ISMEAR =  1         #MP order 1 for metal, -5/0 for insulator
+SIGMA  =  0.1       #default=0.2 
+#SCF
+ISTART =  0         #0 Start job
+ICHARG =  2         #default=2 if ISTART=0.!
+
+#BAND
+#LWAVE  = .FALSE.
+#LCHARG = .FALSE.
+#ISTART =  1         #1 read WAVECAR and CHGCAR
+#ICHARG =  11        #11 for DOS and band
+
+

@@ -1,0 +1,20 @@
+General:
+SYSTEM  =  TaS2   #system title
+NCORE   =  4         #core/NPAR, eg.=4 speed up for para. calculation
+ISTART =  0         #0 Start job
+ICHARG =  2         #default=2 if ISTART=0.!
+PREC    =  Accurate    #Normal | Accurate | Single    default: Normal  
+ENCUT   =  350       #Cut-off energy for plane wave basis set in eV.  
+EDIFF   =  1E-6      #global break condition for the electronic SC-loop,
+ISMEAR  =  1         #MP order 1 for metal, -5/0 for insulator
+SIGMA   =  0.02      #default=0.2 
+IBRION  =  2         #use conjugate-gradient algorithm
+LCHARG   =.TRUE.
+LWAVE    =.TRUE.
+
+BAND:
+#LWAVE  = .FALSE.
+#LCHARG = .FALSE.
+#NBANDS =
+#ISTART =  1         #1 read WAVECAR and CHGCAR
+#ICHARG =  11        #11 for DOS and band
