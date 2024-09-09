@@ -1,4 +1,4 @@
-
+### contact Rui-Chun Xiao (xiaoruichun@foxmail.com)
 import os.path
 from numpy import *
 
